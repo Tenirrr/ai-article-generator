@@ -9,6 +9,7 @@
 `OPENAIAPI_KEY="TWÓJ KLUCZ OPEN AI API”`
 
 3. Uruchom aplikację.
+   
 Generowanie artykułu z podanego tekstu: `node --env-file=.env index.js`
 
 Generowanie podglądu i szablonu z wygenerowanego artykułu: `node --env-file=.env fullside.js`
