@@ -31,8 +31,8 @@ try {
     console.log("Open AI took "+aiDT+"s to respond to the command.")
 
     try {
-        fs.writeFileSync(process.env.OUT_FILE_NAME, completion.choices[0].message.content);
-        console.log("Answer saved to the file '"+process.env.OUT_FILE_NAME+"'")
+        fs.writeFileSync("artykul.html", completion.choices[0].message.content);
+        console.log("Answer saved to the file 'artykul.html'")
         
     } catch (err) {
         console.error(err);
