@@ -14,7 +14,7 @@ try {
         messages: [
             { 
                 role: "system", 
-                content: "Stwórz strone www z podaną teścią. Ogranicz się do samej cześci między tagami <body></body>, pomijejąc same tagi <body></body>" },
+                content: "Stwórz strone www z podaną teścią. Ogranicz się do samej cześci między tagami <body></body>. Pomijejąc same tagi <body></body>. Nie wstawiaj tagów head, html, body. Wstaw do tekstu trzy grafiki w kluczowych miejscach tekstu. Użyj tagów <img> src='image_placeholder.jpg'</img> do wstawienia grafik. Do tagów img dodaj atrybut alt opisujący dane zdjęcia. Dodaj podspi pod wstawionymi grafikami."},
             {
                 role: "user",
                 content: data,
