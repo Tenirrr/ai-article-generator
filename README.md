@@ -6,7 +6,7 @@
 `npm install`
 
 2. Edytuj plik .env.
-`OPENAIAPI_KEY=„TWÓJ KLUCZ OPEN AI API”`
+`OPENAIAPI_KEY="TWÓJ KLUCZ OPEN AI API”`
 
 3. Uruchom aplikację.
 Generowanie artykułu z podanego tekstu: `node --env-file=.env index.js`
